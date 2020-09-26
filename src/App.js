@@ -41,7 +41,7 @@ class App extends React.Component{
       this.setState({id : this.state.id + 1},()=>{
         this.setTimer();
       });
-    },val*60);
+    },val*60*1000);
   }
 
   setSequence = ()=>{
